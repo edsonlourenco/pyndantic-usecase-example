@@ -1,0 +1,47 @@
+.
+├── LICENSE
+├── README.md
+├── __init__.py
+├── datasources
+│   ├── faker_dataset_generator.py
+│   └── json
+│       └── books_fake.json
+├── helpers
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-313.pyc
+│   │   └── book.cpython-313.pyc
+│   └── book.py
+├── main.py
+├── requirements.txt
+├── schemas
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-313.pyc
+│   │   └── book.cpython-313.pyc
+│   └── book.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-313.pyc
+│   ├── helpers
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   └── test_book_helper.cpython-313.pyc
+│   │   └── test_book_helper.py
+│   └── usecases
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-313.pyc
+│       │   └── test_dataset_json.cpython-313.pyc
+│       └── test_dataset_json.py
+├── tree.txt
+└── usecases
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-313.pyc
+    │   └── book_usecase.cpython-313.pyc
+    └── book_usecase.py
+
+15 directories, 30 files
