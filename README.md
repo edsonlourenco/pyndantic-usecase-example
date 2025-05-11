@@ -107,14 +107,25 @@ Inside `usecases/book_usecase.py`, the logic for generating and saving datasets 
 Here's a snippet of what the fake data looks like:
 
 ```json
-{
-  "title": "The Secrets of Dreams",
-  "author": "Dr. Alex Johnson",
-  "genre": "Mystery",
-  "pages": 358,
-  "published_year": 2005,
-  "isbn": "978-1-56619-909-4"
-}
+ {
+    "_id": 11,
+    "title": "Arrive family newspaper.",
+    "isbn": "978-1-81508-929-9",
+    "pageCount": 357,
+    "publishedDate": "2004-05-16",
+    "thumbnailUrl": "https://picsum.photos/200/300",
+    "shortDescription": "Here career suddenly sense. Firm economy everyone prove wrong.\nDevelop to agency or. Have sign our style. Congress mother others politics parent message.",
+    "longDescription": "Begin early lawyer event trade meeting mean. Action color lose population information security. Commercial thus operation many voice land bit.\nAbility blood focus job two present already long. Goal local dream could likely month. Pull management democratic him science watch. Perform bank establish rich.\nPiece risk voice film prove. Price former ever guess art about.\nSoon magazine daughter. Though final drug economy lead.\nHave concern produce data relate hold fill. Agree question program record.\nSimply Mr down new them. Young defense real raise open.\nCase action position later. Follow including magazine Mrs. Degree break home cover receive policy.\nPage indicate usually herself chance world business. West study movement his. Laugh public smile station away exist management second.\nRecord remain blue newspaper this put. Find about something how perhaps surface. Food east involve.\nPresent after task blue. During manage many firm impact hope. Issue force a several.",
+    "status": "REVIEW",
+    "authors": [
+      "Isaiah Cooper",
+      "Amber Dominguez"
+    ],
+    "categories": [
+      "improve",
+      "offer"
+    ]
+  }
 ```
 
 The full dataset is in [`books_fake.json`](./datasources/json/books_fake.json)
